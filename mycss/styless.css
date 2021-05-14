@@ -1,0 +1,254 @@
+:root {
+  --grey--: #3f3f3f;
+  --lightgrey--: #cecbcb;
+  --darkgrey--: #1f1f1f;
+  --purple--: #af02ff;
+  --lightblue--: #20cbff;
+  --green--: #59d69c;
+  --yellow--: #ffdb11;
+  --red--: #fc2424;
+  --orange--: #ff5f02;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", "sans-serif";
+}
+body {
+  background-color: var(--grey--);
+}
+.image-div {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border: 3px solid white;
+  border-radius: 200px;
+  position: relative;
+}
+.image-div img {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  border-radius: 200px;
+  width: 250px;
+  height: 250px;
+}
+.dot {
+  position: absolute;
+  border-radius: 100px;
+}
+.dot1 {
+  background-color: var(--purple--);
+  top: -40px;
+  left: 10px;
+  height: 40px;
+  width: 40px;
+}
+.dot2 {
+  background-color: var(--lightblue--);
+  top: -80px;
+  left: 200px;
+  height: 20px;
+  width: 20px;
+}
+.dot3 {
+  background-color: var(--green--);
+  top: -10px;
+  left: 280px;
+  height: 30px;
+  width: 30px;
+}
+.dot4 {
+  background-color: var(--yellow--);
+  top: 220px;
+  left: 255px;
+  height: 35px;
+  width: 35px;
+}
+.dot5 {
+  background-color: var(--red--);
+  top: 285px;
+  left: 90px;
+  height: 20px;
+  width: 20px;
+}
+.dot6 {
+  background-color: var(--orange--);
+  top: 230px;
+  left: 0px;
+  height: 30px;
+  width: 30px;
+}
+.home-container {
+  padding: 3rem;
+  align-items: center;
+  max-width: 1500px;
+  color: white;
+  display: grid;
+  margin: 3rem auto;
+  grid-template-columns: 40% 60%;
+}
+.home-container h1 {
+  font-size: 50px;
+}
+
+.home-container p {
+  font-size: 16px;
+}
+
+.hello-div .small-label {
+  font-size: 22px;
+  margin-bottom: 5rem;
+}
+
+.act-container {
+  max-width: 1500px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 85%;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  height: 135px;
+
+  border-radius: 15px;
+  position: relative;
+  transition: all 0.3s;
+  background-color: white;
+  box-shadow: 0px 0px 6px var(--darkgrey--), -0px 0px 6px var(--darkgrey--);
+}
+.content {
+  display: flex;
+  padding: 1rem;
+
+  align-items: center;
+}
+.img {
+  margin-right: 1rem;
+  padding: 0 1rem;
+  border-right: 2px solid var(--darkgrey--);
+}
+.img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 15px;
+}
+.content .desc {
+  color: var(--darkgrey--);
+}
+.desc h4 {
+  margin-bottom: 0.5rem;
+}
+.desc p {
+  font-size: 13px;
+}
+.card-act-1 {
+}
+.card-act-1:hover {
+  box-shadow: 2px 2px 13px var(--purple--), -2px -2px 13px var(--purple--);
+}
+.card-act-2 {
+}
+.card-act-2:hover {
+  box-shadow: 2px 2px 13px var(--red--), -2px -2px 13px var(--red--);
+}
+.card-act-3 {
+}
+.card-act-3:hover {
+  box-shadow: 2px 2px 13px var(--yellow--), -2px -2px 13px var(--yellow--);
+}
+.card-act-4 {
+}
+.card-act-4:hover {
+  box-shadow: 2px 2px 13px var(--orange--), -2px -2px 13px var(--orange--);
+}
+.card-act-5 {
+}
+.card-act-5:hover {
+  box-shadow: 2px 2px 13px var(--green--), -2px -2px 13px var(--green--);
+}
+.card-act-6 {
+}
+.card-act-6:hover {
+  box-shadow: 2px 2px 13px var(--lightblue--), -2px -2px 13px var(--lightblue--);
+}
+@media (max-width: 1080px) {
+  .home-container {
+    display: block;
+    text-align: center;
+  }
+  .image-div {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .hello-div {
+    margin-top: 2rem;
+  }
+  .hello-div .small-label {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 670px) {
+  .home-container h1 {
+    font-size: 40px;
+  }
+  .home-container .small-label {
+    font-size: 20px;
+  }
+  .home-container p {
+    font-size: 13x;
+  }
+}
+@media (max-width: 800px) {
+  .home-container h1 {
+    font-size: 35px;
+  }
+  .home-container .small-label {
+    font-size: 15px;
+  }
+  .home-container p {
+    font-size: 10x;
+  }
+}
+@media (max-width: 590px) {
+  .image-div {
+    margin: 0 auto 5rem auto;
+  }
+  .home-container h1 {
+    font-size: 32px;
+  }
+  .home-container p {
+    font-size: 8x;
+  }
+  .act-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .desc h3,
+  .desc h4 {
+    font-size: 13px;
+  }
+
+  .desc p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 430px) {
+  .card {
+    height: 160px;
+  }
+}
+footer div {
+  border-top: 1px solid white;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+footer div p {
+  text-align: center;
+  color: white;
+}

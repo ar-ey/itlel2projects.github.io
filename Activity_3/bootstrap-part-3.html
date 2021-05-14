@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Bootstrap Part 3</title>
+
+</head>
+<body>
+
+    <div class="jumbotron" style="background-color: purple;">
+        <h2 class="container" style= "color: white;">
+            
+
+            
+        <a href="javascript:history.back()"style="font-size: 40px ;color:white;
+    padding: 1rem; text-decoration:none">👈
+    </a>  Bootstrap 3 Cheatsheet Part 3</h2>
+    </div>
+    
+<div class="container">
+<h1>Pager and Pagination</h1>
+<ul class="pager">
+<li class="previous"><a href="#">Previous</a></li>
+<li class="next"><a href="#">Next</a></li>
+</ul>
+
+<ul class="pagination pagination-sm">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li class="active"><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">6</a></li>
+    <li><a href="#">7</a></li>
+</ul>
+<br>
+<ul class="pagination">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li class="disabled"><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">6</a></li>
+    <li><a href="#">7</a></li>
+</ul>
+<br>
+<ul class="pagination pagination-lg">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">6</a></li>
+    <li><a href="#">7</a></li>
+</ul>
+
+</div>
+
+<hr>
+<div class="container">
+
+<ul class="nav nav-pills">
+    <li class="active"><a href="#pill1" data-toggle="pill">Home</a></li>
+    <li><a href="#pill2" data-toggle="pill">My Projects</a></li>
+    <li><a href="#pill3" data-toggle="pill">Testimonials</a></li>
+    <li><a href="#pill4" data-toggle="pill">Contact me</a></li>
+    <li><a href="#pill5" data-toggle="pill">About me</a></li>
+</ul>
+<div class="tab-content">
+    <div class="tab-pane fade in active" id="pill1">Hello I'm Ar Ey!</div>
+    <div class="tab-pane fade" id="pill2">Here are the projects I've created..</div>
+    <div class="tab-pane fade" id="pill3">What my clients tell about me</div>
+    <div class="tab-pane fade" id="pill4">Contact me through social media</div>
+    <div class="tab-pane fade" id="pill5">Software Developer</div>
+</div>
+
+
+
+
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Home</a></li>
+    <li><a href="#tab2" data-toggle="tab">My Projects</a></li>
+    <li><a href="#tab3" data-toggle="tab">Testimonials</a></li>
+    <li><a href="#tab4" data-toggle="tab">Contact me</a></li>
+    <li><a href="#tab5" data-toggle="tab">About me</a></li>
+</ul>
+<div class="tab-content">
+    <div class="tab-pane fade in active" id="tab1">Hello I'm Ar Ey!</div>
+    <div class="tab-pane fade" id="tab2">Here are the projects I've created..</div>
+    <div class="tab-pane fade" id="tab3">What my clients tell about me</div>
+    <div class="tab-pane fade" id="tab4">Contact me through social media</div>
+    <div class="tab-pane fade" id="tab5">Software Developer</div>
+</div>
+
+
+
+</div>    
+<hr>
+ <div class="container">
+ <h1>Navigation Pills</h1>
+ <ul class="nav nav-pills">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">Services</a></li>
+ </ul>
+
+<br>
+ <ul class="nav nav-pills">
+    <li class="active"><a href="#">Home</a></li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web Development <span class="caret"></span></a>
+   <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">Javascript</a></li>
+   </ul>
+ </ul>
+<br>
+ <ul class="nav nav-pills nav-stacked">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">Services</a></li>
+ </ul>
+
+ <br>
+
+ <ul class="nav nav-pills nav-justified">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">Services</a></li>
+ </ul>
+
+
+ </li>
+ </div>   
+<hr>
+<div class="container">
+<h1>List Inline</h1>
+<ul class="list-inline">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">Javascript</a></li>
+</ul>
+<h1>Navigation Tabs</h1>
+<ul class="nav nav-tabs">
+    <li><a href="#">Home</a></li>
+    <li class="active"><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">Javascript</a></li>
+</ul>
+
+<ul class="nav nav-tabs">
+    <li><a href="#">Home</a></li>
+    <li ><a href="#">HTML</a></li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CSS <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li><a href="#">SCSS</a></li>
+        <li><a href="#">CSS Grid</a></li>
+        <li><a href="#">Flexbox</a></li>
+    </ul>
+    </li>
+    <li class="active"><a href="#">Javascript</a></li>
+</ul>
+</div>
+
+<hr>
+    <div class="container">
+   
+   
+    <div class="panel-group" id="myaccordion"> 
+    <div class="panel panel-success">
+    <div class="panel-heading">
+    <h4><a href="#colacc" data-toggle="collapse" data-parent="#myaccordion">Collapsible Accordion</a>
+    
+    </h4>
+    </div>
+
+    <div class="collapse panel-collapse" id="colacc">
+    <div class="panel-body">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut doloribus quos perspiciatis totam delectus provident, optio fugiat dolorem, placeat cum porro, commodi sit tenetur velit eaque quas. Vitae ipsam ullam amet explicabo autem voluptatibus illo tenetur sit iusto repellat.
+    </div>
+    </div>
+    </div>
+
+    <div class="panel panel-danger">
+    <div class="panel-heading">
+    <h4><a href="#colacc2" data-toggle="collapse" data-parent="#myaccordion">Collapsible Accordion</a>
+    
+    </h4>
+    </div>
+
+    <div class="collapse panel-collapse" id="colacc2">
+    <div class="panel-body">
+    <img src="../Activity_2/images/image2.png" width="100px"alt="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut doloribus quos perspiciatis totam delectus provident, optio fugiat dolorem, placeat cum porro, commodi sit tenetur velit eaque quas. Vitae ipsam ullam amet explicabo autem voluptatibus illo tenetur sit iusto repellat.
+    </div>
+    </div>
+    </div>
+
+
+    <div class="panel panel-warning">
+    <div class="panel-heading">
+    <h4><a href="#colacc3" data-toggle="collapse" data-parent="#myaccordion">Collapsible Accordion</a>
+    
+    </h4>
+    </div>
+
+    <div class="collapse panel-collapse" id="colacc3">
+    <div class="panel-body">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut doloribus quos perspiciatis totam delectus provident, optio fugiat dolorem, placeat cum porro, commodi sit tenetur velit eaque quas. Vitae ipsam ullam amet explicabo autem voluptatibus illo tenetur sit iusto repellat.
+    </div>
+    </div>
+    </div>
+    </div>
+
+    
+
+
+
+
+
+    </div>
+    <hr>
+
+    <div class="container">
+    <div class="panel-group">
+    <div class="panel panel-default">
+    
+    <div class="panel-heading">
+    <h4 class="panel-title">
+    <a href="#grpheading-collapse" data-toggle="collapse">Panel Group Heading</a></h4>
+    </div>
+
+    <div class="collapse panel-collapse" id="grpheading-collapse">
+
+        <ul class="list-group">
+            <li class="list-group-item">List 1</li>
+            <li class="list-group-item">List 2</li>
+            <li class="list-group-item">List 3</li>
+            <li class="list-group-item">List 4</li>
+        </ul>
+        <div class="panel-footer">Copyright &copy; 2021. All rights reserved.</div>
+    </div>
+    </div>
+    </div>
+    </div>
+<div class="container">
+<h1>a tag List Group</h1>
+    <div class="list-group"></div>
+    <a href="" class="list-group-item">
+     <h4 class="list-group-item-heading">Heading</h4>
+    <div class="list-group-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas itaque neque accusantium molestias saepe adipisci magni cupiditate quia! Quas ex provident veniam.</div></a>
+    <a href="" class="list-group-item">
+     <h4 class="list-group-item-heading">Heading</h4>
+    <div class="list-group-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas itaque neque accusantium molestias saepe adipisci magni cupiditate quia! Quas ex provident veniam.</div></a>
+</div>
+    <div class="container">
+    <h1>List Group</h1>
+    <ul class="list-group">
+    <li class="list-group-item">
+    <h4 class="list-group-item-heading">Heading</h4>
+    <div class="list-group-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas itaque neque accusantium molestias saepe adipisci magni cupiditate quia! Quas ex provident veniam.</div>
+    </li>
+    <li class="list-group-item">
+    <h4 class="list-group-item-heading">Heading</h4>
+    <div class="list-group-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas itaque neque accusantium molestias saepe adipisci magni cupiditate quia! Quas ex provident veniam.</div>
+    </li>
+    <li class="list-group-item">
+    <h4 class="list-group-item-heading">Heading</h4>
+    <div class="list-group-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas itaque neque accusantium molestias saepe adipisci magni cupiditate quia! Quas ex provident veniam.</div>
+    </li>
+    </ul>
+     
+    </div>
+    <div class="container">
+    
+    <h1>List Group</h1>
+    <ul class="list-group">
+    <li class="list-group-item list-group-item-warning">List Items</li>
+    <li class="list-group-item">List Items</li>
+    <li class="list-group-item">List Items</li>
+    <li class="list-group-item">List Items</li>
+    <li class="list-group-item">List Items</li>
+    </ul>
+
+    <h1>Div List </h1>
+
+    <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-info">List element</a>
+    <a href="#" class="list-group-item">List element</a>
+   
+    </div>
+
+    <div class="container">
+        <h1>Collapsible Panel</h1>
+        <div class="panel panel-danger">
+
+        <div class="panel-heading">
+            <h4><a href="#panelclpse" data-toggle="collapse">This is a panel heading</a></h4>
+        </div>
+<div id="panelclpse" class="collapse panel-collapse">
+        <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et reprehenderit ratione repellendus odio eum ea quo facilis doloribus ducimus? Asperiores.</p>
+        </div>
+
+        <div class="panel-footer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vel! </p>
+        </div>
+</div>
+    </div>
+
+    <div class="container">
+        <h1>Collapsible </h1>
+        <button class="btn btn-info" data-target="#hide" data-toggle="collapse">Click to collapse <span class="caret"></span></button>
+        <button class="btn btn-warning" data-target="#hideimg" data-toggle="collapse">Click to see image <span class="caret"></span></button>
+        <div id="hide" class="collapse">Hi there!</div>
+        <div id="hideimg" class="collapse"><img src="../Activity_2/images/image2.png" alt=""></div>
+    </div>
+      
+    <hr>
+    <div class="container">
+        <h1>Panels</h1>
+        <div class="panel panel-default">
+
+        <div class="panel-heading">
+            <h4>This is a panel heading</h4>
+        </div>
+
+        <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et reprehenderit ratione repellendus odio eum ea quo facilis doloribus ducimus? Asperiores.</p>
+        </div>
+
+        <div class="panel-footer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vel! </p>
+        </div>
+        <hr>
+        <div class="panel panel-success">
+
+        <div class="panel-heading">
+            <h4>This is a panel heading</h4>
+        </div>
+
+        <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et reprehenderit ratione repellendus odio eum ea quo facilis doloribus ducimus? Asperiores.</p>
+        </div>
+
+        <div class="panel-footer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vel! </p>
+        </div>
+        <hr>
+         <div class="panel panel-info">
+
+        <div class="panel-heading">
+            <h4>This is a panel heading</h4>
+        </div>
+
+        <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et reprehenderit ratione repellendus odio eum ea quo facilis doloribus ducimus? Asperiores.</p>
+        </div>
+
+        <div class="panel-footer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vel! </p>
+        </div>
+
+    </div>
+</body>
+</html>

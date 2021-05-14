@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Bootstrap Part 4</title>
+</head>
+
+<body>
+
+    <div class="jumbotron" style="background-color: purple;">
+    <h2 class="container" style= "color: white;">
+    <a href="javascript:history.back()"style="font-size: 40px ;color:white;
+    padding: 1rem; text-decoration:none">👈
+    </a> Bootstrap 3 Cheatsheet Part 4</h2>
+    </div>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Form Validation</h1>
+        </div>
+        <form action="" class="form-inline">
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" disabled class="form-control" >
+            </div>
+           
+            <div class="form-group has-feedback has-warning">
+                <label for="">Name</label>
+                <input type="text" class="form-control" ><span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+            </div>
+           
+            <div class="form-group has-feedback has-success">
+                <label for="">Name</label>
+                <input type="text" class="form-control" ><span class="glyphicon glyphicon-ok form-control-feedback"></span>
+            </div>
+
+            <div class="form-group has-feedback has-error">
+                <label for="">Name</label>
+                <input type="text" class="form-control" ><span class="glyphicon glyphicon-remove form-control-feedback"></span>
+            </div>
+        </form>
+
+          <div class="page-header">
+            <h1>Form Validation</h1>
+        </div>
+        <form action="">
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" disabled class="form-control" >
+            </div>
+           
+            <div class="form-group has-feedback has-warning">
+                <label for="">Name</label>
+                <input type="text" class="form-control" ><span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+            </div>
+           
+            <div class="form-group has-feedback has-success">
+                <label for="">Name</label>
+                <input type="text" class="form-control" ><span class="glyphicon glyphicon-ok form-control-feedback"></span>
+            </div>
+
+            <div class="form-group has-feedback has-error">
+                <label for="">Name</label>
+                <input type="text" class="form-control" ><span class="glyphicon glyphicon-remove form-control-feedback"></span>
+            </div>
+        </form>
+        
+    </div> 
+
+
+    <div class="container">
+        <div class="page-header">
+        <h1>Sign-up Form (Horizontal Form 2)</h1>
+        </div>
+        <form class="form-horizontal" >
+            <div class="form-group">
+                <label for="name" class="control-label col-md-2">Full Name</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name" class="control-label col-md-2">Email Address</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name" class="control-label col-md-2">Password</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message" class="control-label col-md-2">Message</label>
+                <div class="col-md-10">
+                    <textarea rows="10" class="form-control"></textarea>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="control-label col-md-2">Courses to enroll:</label>
+                <div class="col-md-10">
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox" name="" id="">
+                            Adobe Illustrator Master Course
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox" name="" id="">
+                            Adobe Photoshop Student Course
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox" name="" id="">
+                            Software Development 
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox" name="" id="">
+                            UI Designing 
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="control-label col-md-2">Subscribe to</label>
+                <div class="col-md-10">
+                    <div class="checkbox">
+                        <label class="checkbox-inline" for="">
+                            <input type="checkbox" name="" id="">
+                            New Course Updates
+                        </label>
+                         <label class="checkbox-inline" for="">
+                            <input type="checkbox" name="" id="">
+                            Course Sale
+                        </label>
+                         <label class="checkbox-inline" for="">
+                            <input type="checkbox" name="" id="">
+                            New Posts
+                        </label>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Gender</label>
+                <div class="col-md-10">
+                    <div class="radio">
+                        <label for="">
+                            <input type="radio" name="gender" id="">
+                            Male
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label for="">
+                            <input type="radio" name="gender" id="">
+                            Female
+                        </label>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Gender</label>
+                <div class="col-md-10">
+                    <div class="radio">
+                        <label class="radio-inline" for="">
+                            <input type="radio" name="gender" id="">
+                            Male
+                        </label>
+                        <label class="radio-inline" for="">
+                            <input type="radio" name="gender" id="">
+                            Female
+                        </label>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2 ">Course</label>
+                    <div class="col-md-10">
+                        <select class="form-control">      
+                            <option value="">BSCS</option>
+                            <option value="">BSIT</option>
+                            <option value="">BSEMC</option>
+                            <option value="">BSIS</option>
+                        </select>
+                    </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button class="btn btn-danger btn-block">Enroll</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="page-header">
+        <h1>Sign-up Form (Horizontal Form)</h1>
+        </div>
+        <form class="form-horizontal" >
+            <div class="form-group">
+                <label for="name" class="control-label col-md-2">Full Name</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name" class="control-label col-md-2">Email Address</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name" class="control-label col-md-2">Password</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name" class="control-label col-md-2">Phone Number</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+           
+        </form>
+
+        <div class="page-header">
+        <h1>Sign-up Form (Default Form)</h1>
+        </div>
+        <form >
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="name">Email</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="name">Password</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="name">Confirm Password</label>
+                <input type="text" class="form-control">
+            </div>
+        </form>
+
+        <div class="page-header">
+            <h1>Subscribe to our emailing list (Inline Form)</h1>
+        </div>
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="name">Email</label>
+                <input type="text" class="form-control">
+            </div>
+        </form>
+    </div>
+    
+    <nav class="navbar navbar-default ">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">College</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li><a href="">CCS</a></li>
+                <li class="active"><a href="">CON</a></li>
+                <li><a href="">CAS</a></li>
+                <li><a href="">COC</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">College</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li><a href="">CCS</a></li>
+                <li class="active"><a href="">CON</a></li>
+                <li><a href="">CAS</a></li>
+                <li><a href="">COC</a></li>
+            </ul>
+
+        </div>
+    </nav>
+</body>
+</html>
